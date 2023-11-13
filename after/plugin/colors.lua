@@ -1,5 +1,5 @@
 function SetColor(color)
-	color = color or "Apprentice"
+	color = color or "apprentice"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

@@ -12,8 +12,8 @@ return require('packer').startup(function(use)
     use { 
         'romainl/Apprentice',
         config = function()
-            vim.cmd('colorscheme Apprentice')
-        end
+            vim.cmd('colorscheme apprentice')
+        end,
     }
     use {
         'nvim-treesitter/nvim-treesitter', 
